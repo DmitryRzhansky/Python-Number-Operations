@@ -21,4 +21,6 @@ And more!
 
 # Code:
 1. <a href="https://github.com/DmitryRzhansky/Python-Number-Operations/blob/main/Financial%20Compound%20Interest%20Calculator">Financial Compound Interest Calculator</a>
-- A Python tool to calculate compound interest with customizable parameters (principal, rate, time, compounding frequency). Perfect for quick investment growth projections!
+  - A Python tool to calculate compound interest with customizable parameters (principal, rate, time, compounding frequency). Perfect for quick investment growth projections!
+2. <a href="[https://github.com/DmitryRzhansky/Python-Number-Operations/blob/main/Financial%20Compound%20Interest%20Calculator](https://github.com/DmitryRzhansky/Python-Number-Operations/blob/main/Solving%20a%20quadratic%20equation)">Solving a quadratic equation</a>
+  - A simple Python program to solve quadratic equations of the form ax² + bx + c = 0.
