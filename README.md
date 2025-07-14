@@ -18,3 +18,7 @@
 And more!
 
 💡 Perfect for learners and developers who want to master numeric operations in Python!
+
+# Code:
+1. <a href="https://github.com/DmitryRzhansky/Python-Number-Operations/blob/main/Financial%20Compound%20Interest%20Calculator">Financial Compound Interest Calculator</a>
+- A Python tool to calculate compound interest with customizable parameters (principal, rate, time, compounding frequency). Perfect for quick investment growth projections!
