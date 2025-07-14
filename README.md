@@ -26,3 +26,5 @@ And more!
   - A simple Python program to solve quadratic equations of the form ax² + bx + c = 0.
 3. <a href="Random Mathematical Expression Generator.py">Random Mathematical Expression Generator</a>
   - A Python-based interactive math quiz that generates random arithmetic problems and evaluates user responses.
+4. <a href="Analysis of a numerical sequence.py">Analysis of a numerical sequence</a>
+  - A Python script that calculates key statistics from user-provided number sequences.
