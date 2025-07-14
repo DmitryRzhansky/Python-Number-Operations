@@ -1,0 +1,33 @@
+# Solving a quadratic equation
+
+import math
+
+def quadratic_equation():
+    print("=== Solving a quadratic equation ===")
+
+    try:
+        a = float(input("Please enter coefficient a (a ≠ 0): "))
+        b = float(input("Please enter coefficient b: "))
+        c = float(input("Please enter coefficient c: "))
+    except ValueError:
+        print("You need to put a number!")
+
+    if a == 0:
+        print("a cannot be zero!")
+        return
+
+    D = b ** 2 - 4 * a * c # Discriminant
+
+    if D > 0:
+        x1 = (-b + math.sqrt(D)) / (2 * a)
+        x2 = (-b - math.sqrt(D)) / (2 * a)
+        print(f"Roots of the equation: x₁ = {x1}, x₂ = {x2}")
+    elif D == 0:
+        x = -b / (2 * a)
+        print(f"Only one root: x = {x}")
+    else:
+        print("No real roots (D < 0)")
+
+
+quadratic_equation()
+
