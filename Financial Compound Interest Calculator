@@ -1,0 +1,22 @@
+# Financial Compound Interest Calculator
+
+def calculator_procent():
+    print("=== Financial Compound Interest Calculator ===")
+    initial_sum = float(input("Please enter your initial amount: "))
+    annual_interest_rate = input("Please enter your annual percentage rate (e.g., 5 or 5%): ").strip("%")
+    annual_interest_rate = float(annual_interest_rate) / 100  # Преобразуем в десятичную форму
+    accruals_per_year = int(input("Please enter the number of interest accruals per year: "))
+    deposit_term = float(input("Please enter deposit term in years: "))
+
+    # Compound Interest Formula: A = P * (1 + r/n)^(n*t)
+    deposit_amount = initial_sum * (1 + annual_interest_rate / accruals_per_year) ** (accruals_per_year * deposit_term)
+
+    print(f"\nInitial amount: ${initial_sum:.2f}")
+    print(f"Annual interest rate: {annual_interest_rate * 100:.2f}%")
+    print(f"Accruals per year: {accruals_per_year}")
+    print(f"Deposit term: {deposit_term} years")
+    print(f"Final amount: ${deposit_amount:.2f}")
+
+
+# Launch the calculator
+calculator_procent()
